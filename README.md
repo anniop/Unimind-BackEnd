@@ -1,3 +1,5 @@
+
+'''
 /unimind_cognition
 │
 ├── /app
@@ -45,3 +47,4 @@
 └── /migrations                # For database migrations (e.g., Alembic for PostgreSQL)
     ├── versions
     └── env.py                 # Alembic environment configuration
+'''
