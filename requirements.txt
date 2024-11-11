@@ -1,0 +1,31 @@
+# FastAPI and Uvicorn
+fastapi==0.102.0
+uvicorn==0.22.0
+
+# Database and ORM
+sqlalchemy==2.0.18
+psycopg2-binary==2.9.6  # PostgreSQL adapter for Python
+
+# Pydantic for data validation
+pydantic==2.9.2
+
+# Alembic for database migrations
+alembic==1.10.2
+
+# Stripe for payment integration
+stripe==5.0.0
+
+# Security and Authentication
+python-jose==3.3.0  # For JWT token generation and verification
+passlib[bcrypt]==1.7.4  # For password hashing
+
+# Testing libraries
+pytest==7.3.1
+pytest-asyncio==0.21.0
+httpx==0.24.0  # For async HTTP requests in testing
+
+# .env support
+python-dotenv==0.21.0
+
+# CORS Middleware
+fastapi[all]==0.102.0  # Includes dependencies like `requests` for external API calls
